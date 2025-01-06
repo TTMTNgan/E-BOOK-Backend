@@ -1,0 +1,130 @@
+{
+  "authors": {
+    "authorId1": {
+      "name": "John Smith",
+      "keyword": "adventure",
+      "description": "An adventure writer",
+      "avatar": "url",
+      "rating": 4.5,
+      "total_books": 10,
+      "created_at": "2022-01-01T00:00:00",
+      "updated_at": "2022-01-02T00:00:00"
+    }
+  },
+  "categories": {
+    "categoryId1": {
+      "name": "Adventure",
+      "parent_id": 0,
+      "keyword": "exploration",
+      "description": "Exciting adventures and quests",
+      "book_count": 100,
+      "created_at": "2022-03-01T00:00:00",
+      "updated_at": "2022-03-02T00:00:00"
+    }
+  },
+  "books": {
+    "bookId1": {
+      "name": "The Great Adventure",
+      "content": "Adventure content",
+      "view": 1000,
+      "status": 1,
+      "source": "Source1",
+      "image": "url",
+      "user_id": "userId1",
+      "keyword": "adventure, travel",
+      "description": "An exciting journey across the world",
+      "rating": 4.5,
+      "total_rating": 100,
+      "total_comment": 50,
+      "created_at": "2022-05-01T00:00:00",
+      "updated_at": "2022-05-02T00:00:00",
+      "authors": {"authorId1": true},
+      "categories": {"categoryId1": true},
+      "chapters": {
+        "chapterId1": {
+          "name": "Chapter 1",
+          "content": "Content",
+          "view": 100,
+          "order_index": 1,
+          "created_at": "2022-06-01T00:00:00",
+          "updated_at": "2022-06-02T00:00:00"
+        }
+      }
+    }
+  },
+  "users": {
+    "userId1": {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "numberphone": "123456789",
+      "password": "hashed_password",
+      "level": 1,
+      "avatar": "url",
+      "reading_preferences": {
+        "categories": ["adventure", "mystery"],
+        "authors": ["authorId1"]
+      },
+      "created_at": "2022-07-01T00:00:00",
+      "updated_at": "2022-07-02T00:00:00"
+    }
+  },
+  "comments": {
+    "commentId1": {
+      "user_id": "userId1",
+      "book_id": "bookId1",
+      "content": "Great book!",
+      "rating": 5,
+      "likes": 10,
+      "created_at": "2022-08-01T00:00:00",
+      "updated_at": "2022-08-02T00:00:00"
+    }
+  },
+  "reports": {
+    "reportId1": {
+      "reporter_id": "userId1",
+      "reported_type": "book",
+      "reported_id": "bookId1",
+      "reason": "Inappropriate content",
+      "status": "pending",
+      "created_at": "2022-08-03T00:00:00",
+      "updated_at": "2022-08-04T00:00:00"
+    }
+  },
+  "notifications": {
+    "notificationId1": {
+      "user_id": "userId1",
+      "type": "new_chapter",
+      "title": "New Chapter Available",
+      "content": "Chapter 3 is now available",
+      "read": false,
+      "created_at": "2022-08-05T00:00:00"
+    }
+  },
+  "reading_progress": {
+    "progressId1": {
+      "user_id": "userId1",
+      "book_id": "bookId1",
+      "chapter_id": "chapterId1",
+      "progress": 75,
+      "last_read": "2022-08-06T00:00:00",
+      "updated_at": "2022-08-06T00:00:00"
+    }
+  },
+  "offline_books": {
+    "offlineId1": {
+      "user_id": "userId1",
+      "book_id": "bookId1",
+      "downloaded_at": "2022-08-07T00:00:00",
+      "expires_at": "2022-09-07T00:00:00"
+    }
+  },
+  "settings": {
+    "userId1": {
+      "theme": "dark",
+      "font_size": 16,
+      "notifications_enabled": true,
+      "offline_download_enabled": true,
+      "updated_at": "2022-08-08T00:00:00"
+    }
+  }
+}
