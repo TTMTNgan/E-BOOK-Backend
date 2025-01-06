@@ -11,17 +11,134 @@
       "updated_at": "2022-01-02T00:00:00"
     }
   },
-  "categories": {
-    "categoryId1": {
-      "name": "Adventure",
-      "parent_id": 0,
-      "keyword": "exploration",
-      "description": "Exciting adventures and quests",
-      "book_count": 100,
-      "created_at": "2022-03-01T00:00:00",
-      "updated_at": "2022-03-02T00:00:00"
-    }
+"categories": {
+  "categoryId01": {
+    "name": "Kinh doanh",
+    "parent_id": 0,
+    "keyword": "business",
+    "description": "Sách về kinh doanh và khởi nghiệp",
+    "book_count": 0,
+    "created_at": "2022-03-03T00:00:00",
+    "updated_at": "2022-03-04T00:00:00"
   },
+  "categoryId02": {
+    "name": "Sách nói",
+    "parent_id": 0,
+    "keyword": "audiobook",
+    "description": "Sách ở định dạng âm thanh",
+    "book_count": 0,
+    "created_at": "2022-03-05T00:00:00",
+    "updated_at": "2022-03-06T00:00:00"
+  },
+  "categoryId03": {
+    "name": "Truyện tranh",
+    "parent_id": 0,
+    "keyword": "manga, comics",
+    "description": "Tiểu thuyết đồ họa và truyện tranh",
+    "book_count": 0,
+    "created_at": "2022-03-07T00:00:00",
+    "updated_at": "2022-03-08T00:00:00"
+  },
+  "categoryId04": {
+    "name": "Sách thiếu nhi",
+    "parent_id": 0,
+    "keyword": "children",
+    "description": "Sách dành cho trẻ em",
+    "book_count": 0,
+    "created_at": "2022-03-09T00:00:00",
+    "updated_at": "2022-03-10T00:00:00"
+  },
+  "categoryId05": {
+    "name": "Quản trị - Lãnh đạo",
+    "parent_id": 0,
+    "keyword": "management, leadership",
+    "description": "Sách về quản lý và lãnh đạo",
+    "book_count": 0,
+    "created_at": "2022-03-11T00:00:00",
+    "updated_at": "2022-03-12T00:00:00"
+  },
+  "categoryId06": {
+    "name": "Tài chính ngân hàng",
+    "parent_id": 0,
+    "keyword": "finance, banking",
+    "description": "Sách về tài chính và ngân hàng",
+    "book_count": 0,
+    "created_at": "2022-03-13T00:00:00",
+    "updated_at": "2022-03-14T00:00:00"
+  },
+  "categoryId07": {
+    "name": "Tâm lý - Kỹ năng sống",
+    "parent_id": 0,
+    "keyword": "psychology, life skills",
+    "description": "Sách về tâm lý học và kỹ năng sống",
+    "book_count": 0,
+    "created_at": "2022-03-15T00:00:00",
+    "updated_at": "2022-03-16T00:00:00"
+  },
+  "categoryId08": {
+    "name": "Ngoại ngữ",
+    "parent_id": 0,
+    "keyword": "foreign languages",
+    "description": "Sách học ngoại ngữ",
+    "book_count": 0,
+    "created_at": "2022-03-17T00:00:00",
+    "updated_at": "2022-03-18T00:00:00"
+  },
+  "categoryId09": {
+    "name": "Truyện - Tiểu thuyết",
+    "parent_id": 0,
+    "keyword": "novels, fiction",
+    "description": "Những câu chuyện hư cấu và tiểu thuyết",
+    "book_count": 0,
+    "created_at": "2022-03-19T00:00:00",
+    "updated_at": "2022-03-20T00:00:00"
+  },
+  "categoryId10": {
+    "name": "Phát triển bản thân",
+    "parent_id": 0,
+    "keyword": "self-development",
+    "description": "Sách về phát triển bản thân",
+    "book_count": 0,
+    "created_at": "2022-03-21T00:00:00",
+    "updated_at": "2022-03-22T00:00:00"
+  },
+  "categoryId11": {
+    "name": "Văn học",
+    "parent_id": 0,
+    "keyword": "literature",
+    "description": "Các tác phẩm văn học",
+    "book_count": 0,
+    "created_at": "2022-03-23T00:00:00",
+    "updated_at": "2022-03-24T00:00:00"
+  },
+  "categoryId12": {
+    "name": "Chứng khoán",
+    "parent_id": 0,
+    "keyword": "stocks",
+    "description": "Sách về thị trường chứng khoán",
+    "book_count": 0,
+    "created_at": "2022-03-25T00:00:00",
+    "updated_at": "2022-03-26T00:00:00"
+  },
+  "categoryId13": {
+    "name": "Truyện ngắn",
+    "parent_id": 0,
+    "keyword": "short stories",
+    "description": "Truyện ngắn",
+    "book_count": 0,
+    "created_at": "2022-03-27T00:00:00",
+    "updated_at": "2022-03-28T00:00:00"
+  },
+  "categoryId14": {
+    "name": "Chính trị - Triết học",
+    "parent_id": 0,
+    "keyword": "politics, philosophy",
+    "description": "Sách về chính trị và triết học",
+    "book_count": 0,
+    "created_at": "2022-03-29T00:00:00",
+    "updated_at": "2022-03-30T00:00:00"
+  }
+},
   "books": {
     "bookId1": {
       "name": "The Great Adventure",
@@ -64,6 +181,18 @@
         "categories": ["adventure", "mystery"],
         "authors": ["authorId1"]
       },
+       "favorites": {
+      "bookId1": true,
+      "bookId2": true
+    },
+    "reading": {
+      "bookId3": true,
+      "bookId4": true
+    },
+    "finished": {
+      "bookId1": true,
+      "bookId2": true
+    },
       "created_at": "2022-07-01T00:00:00",
       "updated_at": "2022-07-02T00:00:00"
     }
